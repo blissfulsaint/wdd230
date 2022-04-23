@@ -1,15 +1,9 @@
-let date = new Date();
-console.log(date);
+// this is all you need with JS for Week 1
 
-let year = date.getFullYear();
-console.log(year);
+// lastModified property that works with your document
 
-document.querySelector('h1').textContent = year;
+let currentdate = document.lastModified;
 
-document.querySelector('div').innerHTML = '<h2>Subtitle</h2>';
+document.querySelector('#lastdate').textContent = currentdate;
 
-let newpara = document.createElement('p');
-newpara.textContent = 'This is my paragraph';
-document.querySelector('div').appendChild(newpara);
-
-document.querySelector('img').setAttribute('src',)
+console.log(currentdate);

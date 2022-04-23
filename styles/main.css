@@ -1,0 +1,76 @@
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p, li, span, a {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li, a {
+    font-size: 20px;
+}
+
+body {
+    background-color: beige;
+}
+
+#content {
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 25px 35px;
+    border-radius: 20px;
+}
+
+#mypic {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    background-color: rgb(86, 138, 194);
+    padding: 20px;
+    padding-left: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+
+#mypic h1 {
+    font-size: 70px;
+    padding-top: 40px;
+    color: aliceblue;
+    text-shadow: 0px 0px 15px black;
+}
+
+.propic2 {
+    max-width: 200px;
+    box-shadow: 5px 5px 5px black;
+}
+
+#assignments {
+    margin: 50px 15px 50px;
+}
+
+#assignmentslist {
+    margin: 0px 15px;
+}
+
+footer {
+    padding: 15px 0px;
+    margin: 15px 0px;
+    background-color: rgb(86, 138, 194);
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+
+footer p, footer span {
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+#datemod {
+    color: bisque;
+}
