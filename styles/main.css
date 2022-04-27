@@ -47,6 +47,7 @@ body {
 .propic2 {
     max-width: 200px;
     box-shadow: 5px 5px 5px black;
+    border-radius: 8px;
 }
 
 #assignments {
