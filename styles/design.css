@@ -1,0 +1,116 @@
+body {
+    background-color: beige;
+}
+
+.designcontent {
+    margin: 0 auto;
+    align-items: center;
+    display: block;
+}
+
+header {
+    padding: 15px 0px;
+    margin: 15px 0px;
+    background-color: rgb(86, 138, 194);
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+#hick, #whitespace, #visualhierarchy {
+    background-color: white;
+    width: 287px;
+    margin: 0 auto;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+#hick h3, #whitespace h3, #visualhierarchy h3 {
+    background-color: rgb(86, 138, 194);
+    padding: 15px 8px;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#hick p, #whitespace p, #visualhierarchy p {
+    padding: 0px 10px;
+}
+
+#samsung, #apple, #amazon {
+    margin: 8px;
+    box-shadow: 0px 0px 5px;
+}
+
+.designgrid {
+    margin-bottom: 40px;
+}
+
+footer {
+    padding: 15px 0px;
+    margin: 15px 0px;
+    background-color: rgb(86, 138, 194);
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+footer p, footer span {
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+#datemod {
+    color: rgb(255, 255, 255);
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    header {
+        margin: 15px;
+    }
+
+    .designgrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #visualhierarchy {
+        grid-column: 1/3;
+        justify-self: center;
+    }
+
+    #hick, #whitespace, #visualhierarchy {
+        margin-top: 30px;
+        padding-top: 0px;
+    }
+
+    #hick h3, #whitespace h3, #visualhierarchy h3 {
+        margin: 0;
+    }
+
+    footer {
+        margin: 15px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    body {
+        max-width: 1000px;
+    }
+    .designgrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #visualhierarchy {
+        justify-self: none;
+        grid-column: 3/4;
+    }
+}
