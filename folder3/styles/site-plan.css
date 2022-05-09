@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:wght@300&display=swap');
+
+body {
+    background-color: #B7C8D6;
+}
+
+.content {
+    text-align: center;
+    width: 410px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px black;
+}
+
+h1, h2, h3 {
+    font-family: 'Libre Baskerville', Georgia, 'Times New Roman', Times, serif;
+}
+
+p, li, a {
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+/* nav elements */
+
+header {
+    padding: 15px 0px;
+    margin: 15px 0px;
+    background-color: #044CAC;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+nav {
+    background-color: #044CAC;
+    padding-right: 40px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 20px 51px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+nav li:hover{
+    background-color: white;
+    border-radius: 10px;
+}
+
+nav li a:hover {
+    color: #044CAC;
+}
+
+#active {
+    background-color: white;
+    border-radius: 10px;
+}
+
+#active a {
+    color: #044CAC;
+}
+
+/* index elements */
+
+#logo {
+    width: 250px;
+    margin-bottom: 40px;
+}
+
+/* Target Audience elements */
+
+#matt, #maria {
+    width: 400px;
+}
+
+#scenarios {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+/* Color Scheme elements */
+
+#cobalt, #casper, #danube, #avocado {
+    border-radius: 7px;
+    margin: 0px 50px;
+}
+
+#cobalt {
+    background-color: #044CAC;
+    color: white;
+}
+
+#casper {
+    background-color: #B7C8D6;
+    color: black;
+}
+
+#danube {
+    background-color: #7CA4D4;
+    color: white;
+}
+
+#avocado {
+    background-color: #798454;
+    color: white;
+    margin-bottom: 40px;
+}
+
+/* footer */
+
+footer {
+    padding: 15px 0px;
+    margin: 15px 0px;
+    background-color: #044CAC;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+@media only screen and (min-width: 600px) {
+    .content {
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
