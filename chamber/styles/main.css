@@ -12,6 +12,10 @@ p, a , li, footer {
     width: 111px;
 }
 
+header h3 {
+    display: none;
+}
+
 .social {
     width: 50px;
     margin: 0px 0px 45px 10px;
@@ -86,6 +90,10 @@ main {
     grid-gap: 15px;
 }
 
+main section {
+    background-color: #bbb;
+}
+
 section {
     background-color: white;
     border: 1px solid black;
@@ -106,4 +114,20 @@ section h4 {
 
 footer {
     text-align: center;
+}
+
+footer img {
+    width: 111px;
+    margin: 30px 0px 0px;
+}
+
+footer a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: 10px 0px;
+}
+
+footer a:hover {
+    font-weight: bold;
 }
