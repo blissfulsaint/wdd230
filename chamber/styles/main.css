@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:wght@300&display=swap');
+
+h1, h2, h3, h4 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+p, a , li, footer {
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo {
+    width: 111px;
+}
+
+.social {
+    width: 50px;
+    margin: 0px 0px 45px 10px;
+}
+
+.ham {
+    text-decoration: none;
+    float: right;
+    font-size: 80px;
+    padding: 10px 20px;
+    color: #000;
+    background-color: #7CA4D4;
+    margin: 0px;
+}
+
+.ham:hover {
+    background-color: #798454;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 760px;
+    background-color: #7CA4D4;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.navigation a {
+    display: block;
+    color: #fff;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav li {
+    list-style-type: none;
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.navigation a:hover {
+    color: #000;
+    background-color: #798454;
+}
+
+.date, aside {
+	border: 1px solid #bbb;
+	padding: 0.75rem;
+	background-color: #eee;
+    text-align: center;
+    margin: 0px 20px 18px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+}
+
+section {
+    background-color: white;
+    border: 1px solid black;
+    height: 200px;
+}
+
+section h4 {
+    padding: 10px;
+}
+
+#spotlights {
+    height: 650px;
+}
+
+#spot1, #spot2, #spot3 {
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+}

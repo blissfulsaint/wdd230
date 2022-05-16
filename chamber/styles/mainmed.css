@@ -1,0 +1,46 @@
+@media screen and (min-width: 550px) {
+    main {
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+
+    #hero, #news, #join, #spotlights {
+        grid-column: 1/7;
+    }
+
+    #hero {
+        grid-row: 1/2;
+    }
+
+    #news {
+        grid-row: 2/3;
+    }
+
+    #spotlights {
+        display: flex;
+        height: 230px;
+        grid-row: 3/4;
+    }
+
+    #spot1, #spot2 {
+        width: 90%;
+    }
+
+    #spot3 {
+        display: none;
+    }
+
+    #join {
+        grid-row: 4/5;
+    }
+
+    #event {
+        grid-column: 1/5;
+        grid-row: 5/6;
+    }
+
+    #weather {
+        grid-column: 5/7;
+        grid-row: 5/6;
+    }
+}

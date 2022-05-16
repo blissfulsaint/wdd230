@@ -53,11 +53,12 @@ nav li {
     padding: 20px 51px;
 }
 
-nav li a {
+nav a {
     color: white;
     text-decoration: none;
     font-size: 1.5em;
     text-align: center;
+    padding: 20px 51px;
 }
 
 nav li:hover{
