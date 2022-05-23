@@ -10,6 +10,13 @@
 
     #hero {
         grid-row: 1/2;
+        height: 350px;
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    #hero a {
+        grid-column: 3/4;
+        grid-row: 5/6;
     }
 
     #news {
@@ -26,8 +33,17 @@
         width: 90%;
     }
 
+    #spot1 section p {
+        margin: 5px;
+        padding: 0px;
+    }
+
     #spot3 {
         display: none;
+    }
+
+    #weather h4 {
+        margin: 5px;
     }
 
     #join {
