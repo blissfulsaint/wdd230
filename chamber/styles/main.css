@@ -134,6 +134,7 @@ section h4 {
 }
 
 #meet {
+    display: none;
     grid-column: 1/4;
     grid-row: 2/3;
     font-weight: bold;
