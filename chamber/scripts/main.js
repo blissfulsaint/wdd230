@@ -26,3 +26,11 @@ let currentyear = date.getFullYear();
 document.querySelector('#currentyear').textContent = currentyear;
 
 console.log(currentyear);
+
+let banner = document.querySelector('#meet');
+
+const currentDay = date.getDay();
+
+if (currentDay == 1 || currentDay == 2) {
+    banner.style.display = 'block';
+}
