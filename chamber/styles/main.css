@@ -177,7 +177,7 @@ section h4 {
 }
 
 #weather img {
-    height: 100%;
+    width: 100%;
     grid-column: 1/2;
     grid-row: 2/4;
 }
@@ -234,16 +234,17 @@ section h4 {
     text-align: center;
 }
 
+#join a {
+    display: block;
+    margin: 30px 60px;
+}
+
 #news p, #join p {
     margin: 15px 30px;
 }
 
 #join p {
     margin-top: 40px;
-}
-
-#join {
-    padding-top: 50px;
 }
 
 #join a {
