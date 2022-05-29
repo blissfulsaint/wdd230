@@ -16,6 +16,11 @@
 
     #news {
         grid-row: 2/3;
+        height: 200px;
+    }
+
+    #weather {
+        width: 100%;
     }
 
     #spotlights {
