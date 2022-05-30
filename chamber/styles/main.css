@@ -91,7 +91,7 @@ main {
 }
 
 main section {
-    background-color: #bbb;
+    background-color: rgb(230, 230, 230);
 }
 
 section {
@@ -134,7 +134,7 @@ section h4 {
     grid-row: 2/3;
     font-weight: bold;
     color: white;
-    background-color: #7CA4D4;
+    background-color: #044CAC;
     text-align: center;
     padding: 5px;
     margin: 0px;
