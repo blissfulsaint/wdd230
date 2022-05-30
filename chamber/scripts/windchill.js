@@ -1,4 +1,4 @@
-function do_wind_chill(){
+function windchill(){
 
     let t = (document.querySelector("#temp span").textContent)*1
     let s = (document.querySelector("#speed span").textContent)*1
@@ -9,4 +9,4 @@ function do_wind_chill(){
     document.querySelector("#chill span").textContent = c
 }
 
-do_wind_chill();
+windchill();
