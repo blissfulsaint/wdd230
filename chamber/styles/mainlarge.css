@@ -65,7 +65,7 @@
 
     #meet {
         grid-column: 1/5;
-        margin-right: 60px;
+        margin: 0px -10px;
     }
 
     #hero a {

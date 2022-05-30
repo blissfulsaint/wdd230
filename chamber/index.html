@@ -11,10 +11,12 @@
     <link rel="stylesheet" href="styles/mainmed.css">
     <link rel="stylesheet" href="styles/mainlarge.css">
     <script defer src="scripts/main.js"></script>
+    <script defer src="scripts/windchill.js"></script>
 </head>
 <body>
     <div id="content">
         <header>
+            <p id="meet">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
             <a href="index.html"><img id="logo" src="images/mcoc.png" alt="chamber of commerce logo"></a>
             <h3>McKinney Chamber of Commerce</h3>
             <a href="https://www.facebook.com/" target="_blank"><img class="social" src="images/facebook-icon.png" alt="facebook logo"></a>
@@ -38,7 +40,6 @@
                     <img src="images/downtown-mckinney471-t.jpg" alt="Downtown McKinney">
                 </picture>
                 <h4>Welcome to McKinney</h4>
-                <p id="meet">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
                 <a href="#">Join the Chamber</a>
             </section>
             <section id="event">
@@ -49,15 +50,15 @@
                 <h4>Weather</h4>
                 <div id="weatherpic">
                     <img src="images/weather.png" alt="weather icon">
-                    <p id="temp">33&#176;C</p>
+                    <p id="temp"><span>42</span>&#176;F</p>
                 </div>
                 <p id="sky">Partly Cloudy</p>
                 <hr>
                 <div id="wind">
                     <p>Wind Speed:</p>
-                    <span>2.5 km/h</span>
-                    <p>Wind Chill:</p>
-                    <span>N/A</span>
+                    <p id="speed"><span>4</span> mph</p>
+                    <p>Feels Like:</p>
+                    <p id="chill"><span>N/A</span>&#176;F</p>
                 </div>
             </section>
             <section id="news">
