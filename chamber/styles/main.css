@@ -313,6 +313,10 @@ section h4 {
     height: 250px;
 }
 
+#discovercontent h1 {
+    text-align: center;
+}
+
 #discover picture p {
     position: absolute;
     top: 177px;
