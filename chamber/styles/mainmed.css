@@ -1,5 +1,5 @@
 @media screen and (min-width: 550px) {
-    main {
+    #index {
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: repeat(5, 1fr);
     }
@@ -58,5 +58,13 @@
     #weather {
         grid-column: 5/7;
         grid-row: 5/6;
+    }
+
+
+    /* ------ Discover Page ------ */
+
+    #discover picture:hover {
+        transform: scale(1.1);
+        box-shadow: 5px 5px 15px black;
     }
 }

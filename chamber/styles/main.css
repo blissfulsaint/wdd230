@@ -84,7 +84,7 @@ nav li a {
     margin: 0px 20px 18px;
 }
 
-main {
+#index {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 15px;
@@ -290,6 +290,52 @@ section h4 {
 #join a:hover {
     background-color: #798454;
 }
+
+
+
+/* -------- Discover Page -------- */
+
+
+
+#discover {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#discover picture {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+#discover picture p {
+    position: absolute;
+    top: 177px;
+    width: 230px;
+    font-weight: bolder;
+    color: white;
+    background-color: #044CAC;
+    padding: 10px;
+    text-align: center;
+}
+
+#discover img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.visited {
+    display: block;
+    text-align: center;
+}
+
+
+/* -------- Footer -------- */
 
 footer {
     text-align: center;
