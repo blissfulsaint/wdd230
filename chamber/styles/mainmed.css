@@ -63,7 +63,7 @@
 
     /* ------ Discover Page ------ */
 
-    #discover picture:hover {
+    #discover div:hover {
         transform: scale(1.1);
         box-shadow: 5px 5px 15px black;
     }

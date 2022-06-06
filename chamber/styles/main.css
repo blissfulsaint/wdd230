@@ -304,10 +304,16 @@ section h4 {
     align-items: center;
 }
 
+#discover div {
+    padding: 0px;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+}
+
 #discover picture {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px;
     width: 250px;
     height: 250px;
 }
@@ -322,8 +328,7 @@ section h4 {
 
 #discover p {
     position: absolute;
-    top: 190px;
-    left: 20px;
+    top: 170px;
     width: 230px;
     font-weight: bolder;
     color: white;
