@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="#" method="post" autocomplete="on">
+        <label for="fname">First Name *:</label>
+        <input id="fname" name="first_name" required>
+        <label for="pw">Password *:</label>
+        <input id="pw" name="pw" required minlength="8" pattern="[- A-Za-z]+">
+        <button type="submit">Submit Form</button>
+        <label for="phone">Phone *:</label>
+        <input id="phone" type="tel" name="telephone" minlength="10" placeholder="(###) ###-####" required>
+        <button type="submit">Submit Form</button>
+    </form>
+</body>
+</html>
