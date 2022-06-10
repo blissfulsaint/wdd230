@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+table {
+    text-align: center;
+    margin: 100px auto;
+}
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th {
+    font-size: 1.2em;
+    padding: 10px;
+    font-family: Ubuntu, sans-serif;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ccc;
+}
+
+tbody tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+thead, tfoot {
+    background-color: pink;
+}
+
+tbody tr:first-child {
+    background-color: lightgreen;
+}
+
+tbody td:nth-child(5) {
+    background-color: lightgreen;
+}
+
+#black td:nth-child(1) {
+    font-style: italic;
+}
+
+#november td:nth-child(3) {
+    background-color: pink;
+}
+
+tfoot {
+    font-size: .8em;
+}
+
+@media screen and (min-width: 600px) {
+    td, th {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
