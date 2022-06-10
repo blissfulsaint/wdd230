@@ -50,6 +50,6 @@ tfoot {
 
 @media screen and (min-width: 600px) {
     td, th {
-        padding: 0px 50px;
+        padding: 10px 50px;
     }
 }
