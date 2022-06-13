@@ -132,10 +132,6 @@
         grid-row: 2/3;
     }
 
-    #formContent {
-        display: flex;
-    }
-
     form label.sbs {
         padding: .4rem 0;
     }
@@ -147,5 +143,10 @@
     #benefits {
         margin: 40px 0px 0px 30px;
 
+    }
+
+    #formContent {
+        display: flex;
+        justify-content: center;
     }
 }
