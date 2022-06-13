@@ -92,8 +92,6 @@ images.forEach(image => {
 
 
 
-let email_date = document.querySelector('#date');
-
-let date = new Date();
+let email_date = document.querySelector('#submitDate');
 
 email_date.value = date;
