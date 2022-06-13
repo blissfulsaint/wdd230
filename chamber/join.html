@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the Chamber</title>
+    <meta name="join" content="Join us and experience networking like never before right here in McKinney Chamber of Commerce!">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/mainmed.css">
+    <link rel="stylesheet" href="styles/mainlarge.css">
+    <script defer src="scripts/main.js"></script>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <p id="meet">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+            <a href="index.html"><img id="logo" src="images/mcoc.webp" alt="chamber of commerce logo"></a>
+            <h3>McKinney Chamber of Commerce</h3>
+            <a href="https://www.facebook.com/" target="_blank"><img class="social" src="images/facebook-icon.png" alt="facebook logo"></a>
+            <a href="https://www.instagram.com" target="_blank"><img class="social" src="images/instagram-icon.png" alt="instagram logo"></a>
+            <a class="ham" href="#">&#9776;</a>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <aside id="date"></aside>
+        </header>
+        <main id="joincontent">
+            <h1>Course Proposal Application</h1>
+            <div id="formContent">
+                <form method="get" action="thankyou.html">
+                    <fieldset>
+                        <legend>Applicant Information</legend>
+                        <label class="top">First Name* <input type="text" name="fname" required></label>
+                        <label class="top">Last Name* <input type="text" name="lname" required></label>
+                        <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                        <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                        <label class="top">Business Name* <input type="text" name="title" required></label>
+                        <label class="top">Business Position <input type="text" name="title" pattern="[- A-Za-z]+"></label>
+                        <label class="top">Business Description <input type="text" name="description"></label>
+                    </fieldset>
+    
+                    <fieldset>
+                        <legend>Membership Level</legend>
+                        <label class="sbs"><input type="radio" name="membership" value="np" required> NP</label>
+                        <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze</label>
+                        <label class="sbs"><input type="radio" name="membership" value="silver"> Silver</label>
+                        <label class="sbs"><input type="radio" name="membership" value="gold"> Gold</label>
+                    </fieldset>
+    
+                    <input type="submit" value="Join the Chamber" class="submitBtn">
+                </form>
+                <section id="benefits">
+                    <h1>Membership Levels Benefits</h1>
+                    <h3>NP Membership</h3>
+                    <ul>
+                        <li>For non-profit organizations</li>
+                        <li>No fee required</li>
+                    </ul>
+                    <h3>Bronze Membership</h3>
+                    <ul>
+                        <li>15% discount on events</li>
+                        <li>10% discount on advertising</li>
+                        <li>Fee of $50/mo</li>
+                    </ul>
+                    <h3>Silver Membership</h3>
+                    <ul>
+                        <li>25% discount on events</li>
+                        <li>15% discount on advertising</li>
+                        <li>Free participation in the trade fair</li>
+                        <li>Fee of $100/mo</li>
+                    </ul>
+                    <h3>Gold Membership</h3>
+                    <ul>
+                        <li>50% discount on events</li>
+                        <li>50% discount on advertising</li>
+                        <li>Free participation in the trade fair</li>
+                        <li>5 free featured ads per year</li>
+                        <li>1 free training per quarter</li>
+                        <li>Fee of $250/mo</li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <img id="footlogo" src="images/mcoc.png" alt="chamber of commerce logo">
+            <a href="https://www.google.com/maps?q=1700+N+Redbud+Blvd+McKinney+TX+75069" target="_blank"> 1700 N Redbud Blvd, McKinney, TX 75069</a>
+            <hr>
+            <p>McKinney Chamber &copy; <span id="currentyear"></span></p>
+            <p>WDD 230 Project</p>
+            <p id="datemod">Last Date Modified: <span id="lastdate"></span></p>
+        </footer>
+    </div>
+</body>
+</html>
