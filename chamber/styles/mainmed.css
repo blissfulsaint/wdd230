@@ -72,5 +72,6 @@
     }
     #formContent {
         justify-content: center;
+        /* display: flex; */
     }
 }
