@@ -89,3 +89,11 @@ const io = new IntersectionObserver (
 images.forEach(image => {
     io.observe(image);
 });
+
+
+
+let email_date = document.querySelector('#date');
+
+let date = new Date();
+
+email_date.value = date;
