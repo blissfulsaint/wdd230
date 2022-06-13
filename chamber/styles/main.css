@@ -350,6 +350,9 @@ section h4 {
 
 /* -------- Join Us -------- */
 
+#joincontent h1 {
+    margin: 30px 0px 0px 20px;
+}
 
 form fieldset {
     margin: 2rem 0;
