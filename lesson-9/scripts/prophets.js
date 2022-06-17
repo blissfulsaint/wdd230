@@ -18,7 +18,7 @@ const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-
           const jsonObject = await response.json();
           console.log(jsonObject);
           const prophets = jsonObject['prophets'];
-          prophets.forEach(displayTable);
+          prophets.forEach(displayProphets);
       }
   };
 
