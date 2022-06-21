@@ -1,0 +1,99 @@
+{
+
+"data": [{
+    "name" : "Local Yocal",
+    "address" : "350 EAST LOUISIANA ST., MCKINNEY, TX 75069",
+    "phone" : "469-225-0800",
+    "website" : "https://localyocalbbqandgrill.com/",
+    "imagepath" : "localyocal.png"
+},
+
+{
+    "name" : "Ovation Academy",
+    "address" : "404 Power House St. McKinney TX 75071",
+    "phone" : "(214) 856-4513",
+    "website" : "https://www.ovationapa.org/",
+    "imagepath" : "ovation.jpg"
+},
+
+{
+    "name" : "Bright Side Print and Promotions",
+    "address" : "McKinney, TX",
+    "phone" : "972-955-2456",
+    "website" : "https://brightsideprint.com/",
+    "imagepath" : "brightside.png"
+},
+
+{
+    "name" : "Stonebridge Videography",
+    "address" : "1301 Runford Ct. McKinney TX 75071",
+    "phone" : "(214) 551-9073",
+    "website" : "http://stonebridgevideography.com/",
+    "imagepath" : "stonebridge.jpg"
+},
+
+{
+    "name" : "Food Walks of Texas",
+    "address" : "111 N. Tennessee McKinney TX 75069",
+    "phone" : "(972) 529-2009",
+    "website" : "https://www.foodwalksoftexas.com/",
+    "imagepath" : "foodwalks.jpg"
+},
+
+{
+    "name" : "Guitars and Growlers",
+    "address" : "2741 Virginia Pkwy., Ste. 500 McKinney TX 75071",
+    "phone" : "(469) 714-0229",
+    "website" : "https://www.guitarsandgrowlers.com/",
+    "imagepath" : "guitars.png"
+},
+
+{
+    "name" : "Jump Into Art Studios",
+    "address" : "404 N Church Street, McKinney, TX, 75069",
+    "phone" : "469-225-0800",
+    "website" : "https://www.jumpintoart.com/#/",
+    "imagepath" : "jump.png"
+},
+
+{
+    "name" : "Image Signs of McKinney",
+    "address" : "405 Powerhouse St., Ste. 504 McKinney TX 75069",
+    "phone" : "(254) 913-3889",
+    "website" : "https://imagesignsofmckinney.com/",
+    "imagepath" : "imagesigns.jpg"
+},
+
+{
+    "name" : "Serendipity Labs",
+    "address" : "7540 SH 121 Suite 200, McKinney, Texas 75070",
+    "phone" : "469-225-0800",
+    "website" : "https://serendipitylabs.com/us/tx/mckinney-craig-ranch/",
+    "imagepath" : "serendipity.webp"
+},
+
+{
+    "name" : "Spectrum Reach",
+    "address" : "13727 Noel Rd., Ste. 500 Dallas TX 75240",
+    "phone" : "(469) 791-0775",
+    "website" : "https://www.spectrumreach.com/",
+    "imagepath" : "spectrum.jpg"
+},
+
+{
+    "name" : "Raytheon Intelligence and Space",
+    "address" : "2501 W. University Dr., M/S 8089 McKinney TX 75071",
+    "phone" : "(972) 952-6613",
+    "website" : "https://www.raytheonintelligenceandspace.com/",
+    "imagepath" : "raytheon.png"
+},
+
+{
+    "name" : "Lisonbee Marketing",
+    "address" : "2904 Willowdale Ct., McKinney, TX 75072",
+    "phone" : "(214) 597-8665",
+    "website" : "https://www.facebook.com/lisonbeemarketing",
+    "imagepath" : "lisonbee-marketing.png"
+}]
+
+}
