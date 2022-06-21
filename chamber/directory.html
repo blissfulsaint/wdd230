@@ -4,9 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Business Directory</title>
+    <meta name="description" content="View a list of our most profitable businesses here in the McKinney area!">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/mainmed.css">
+    <link rel="stylesheet" href="styles/mainlarge.css">
+    <script defer src="scripts/main.js"></script>
+    <script defer src="scripts/directory.js"></script>
 </head>
 <body>
-    
+    <div id="content">
+        <header>
+            <p id="meet">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+            <a href="index.html"><img id="logo" src="images/mcoc.webp" alt="chamber of commerce logo"></a>
+            <h3>McKinney Chamber of Commerce</h3>
+            <a href="https://www.facebook.com/" target="_blank"><img class="social" src="images/facebook-icon.png" alt="facebook logo"></a>
+            <a href="https://www.instagram.com" target="_blank"><img class="social" src="images/instagram-icon.png" alt="instagram logo"></a>
+            <a class="ham" href="#">&#9776;</a>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <aside id="date"></aside>
+        </header>
+        <main id="directoryContent">
+            <div class="cards"></div>
+            <table></table>
+        </main>
+        <footer>
+            <img id="footlogo" src="images/mcoc.png" alt="chamber of commerce logo">
+            <a href="https://www.google.com/maps?q=1700+N+Redbud+Blvd+McKinney+TX+75069" target="_blank"> 1700 N Redbud Blvd, McKinney, TX 75069</a>
+            <hr>
+            <p>McKinney Chamber &copy; <span id="currentyear"></span></p>
+            <p>WDD 230 Project</p>
+            <p id="datemod">Last Date Modified: <span id="lastdate"></span></p>
+        </footer>
+    </div>
 </body>
 </html>
