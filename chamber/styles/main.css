@@ -451,6 +451,64 @@ form label.top input:required:valid {
 }
 
 
+/* -------- Directory -------- */
+
+
+
+#directory_cards {
+display: flex;
+flex-wrap: wrap;
+text-align: center;
+justify-content: center;;
+}
+
+#directory_cards section {
+border: 1px solid navy;
+background-color: lightblue;
+padding: 30px;
+text-align: center;
+width: 200px;
+height: 250px;
+margin: 20px;
+}
+
+#directory_table td {
+    padding: 20px;
+    width: 200px;
+}
+
+#directory_table tr:nth-child(even) {
+    background-color: #ced9ff;
+}
+
+#directoryContent p, #directoryContent h1 {
+    text-align: center;
+}
+
+#button_container {
+    text-align: center;
+}
+
+#show_cards, #show_table {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+}
+
+#directoryContent img {
+max-width: 90%;
+max-height: 100px;
+}
+
+#directoryContent a {
+    word-wrap: break-word;
+}
+
+#directoryContent .hide {
+    display: none;
+}
+
+
 /* -------- Footer -------- */
 
 footer {
