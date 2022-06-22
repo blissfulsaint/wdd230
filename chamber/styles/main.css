@@ -472,6 +472,10 @@ height: 250px;
 margin: 20px;
 }
 
+#directory_table {
+    border-collapse: collapse;
+}
+
 #directory_table td {
     padding: 20px;
     width: 200px;
