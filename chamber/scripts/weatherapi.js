@@ -13,6 +13,27 @@ const getWeather = async () => {
     document.querySelector('#weathericon').setAttribute('src', iconsrc);
     document.querySelector('#weathericon').setAttribute('alt', descC);
     document.querySelector('figcaption').textContent = descC;
+
+    let windspeed = jsObject.wind.speed
+
+    document.querySelector('#speed').textContent = windspeed;
+
+    if (fixedTemp <= 50 && windspeed >= 3){
+        let chill = Math.round((35.74 + (0.6215 * fixedTemp))-(35.75 * Math.pow(windspeed,0.16)) + (0.4275*fixedTemp*Math.pow(windspeed,0.16)));
+
+        let feels = document.createElement('p');
+        let chillP = document.createElement('p');
+        let chillS = document.createElement('span');
+
+        feels.textContent = "Feels Like:";
+        document.querySelector('#wind').appendChild(feels);
+
+        chillS.textContent = chill +' °F';
+        chillP.appendChild(chillS);
+        document.querySelector('#wind').appendChild(chillP);
+    }
+
+
 };
 
 getWeather();
