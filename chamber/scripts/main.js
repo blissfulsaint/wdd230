@@ -45,6 +45,7 @@ let now_date = new Date();
 let stored_date = localStorage.getItem('last_visited');
 let last_date = new Date(stored_date);
 
+if(visit_heading){
 if (!stored_date) {
     visit_heading.textContent = 'Welcome to the Discover Page!';
 }
@@ -55,7 +56,7 @@ else {
 
     visit_heading.textContent = diff_days + ' days since your last visit';
 }
-
+}
 localStorage.setItem('last_visited', now_date);
 
 
@@ -93,5 +94,7 @@ images.forEach(image => {
 
 
 let email_date = document.querySelector('#submitDate');
-
+if(email_date){
 email_date.value = date;
+
+}
