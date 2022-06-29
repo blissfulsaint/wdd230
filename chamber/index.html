@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="styles/mainmed.css">
     <link rel="stylesheet" href="styles/mainlarge.css">
     <script defer src="scripts/main.js"></script>
-    <script defer src="scripts/windchill.js"></script>
+    <script defer src="scripts/weatherapi.js"></script>
 </head>
 <body>
     <div id="content">
@@ -49,16 +49,15 @@
             <section id="weather">
                 <h4>Weather</h4>
                 <div id="weatherpic">
-                    <img src="images/weather.png" alt="weather icon">
-                    <p id="temp"><span>42</span>&#176;F</p>
+                    <figure><img src="" alt="" id="weathericon" />  <figcaption></figcaption></figure>
+                    <p id="temp"><span id="current-temp"></span> &deg;F</p>
                 </div>
-                <p id="sky">Partly Cloudy</p>
                 <hr>
                 <div id="wind">
                     <p>Wind Speed:</p>
-                    <p id="speed"><span>4</span> mph</p>
+                    <p><span id="speed"></span> mph</p>
                     <p>Feels Like:</p>
-                    <p id="chill"><span>N/A</span>&#176;F</p>
+                    <p><span id="chill"></span> &deg;F</p>
                 </div>
             </section>
             <section id="news">
@@ -102,6 +101,7 @@
             <hr>
             <p>McKinney Chamber &copy; <span id="currentyear"></span></p>
             <p>WDD 230 Project</p>
+            <p>Weather Info provided by OpenWeatherMap</p>
             <p id="datemod">Last Date Modified: <span id="lastdate"></span></p>
         </footer>
     </div>

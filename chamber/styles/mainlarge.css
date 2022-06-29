@@ -91,11 +91,25 @@
     }
 
     #weatherpic p {
-        font-size: 40px;
+        font-size: 25px;
     }
 
     #weather hr {
         margin: 20px 10px;
+    }
+
+    #temp {
+        font-size: 20px;
+        left: 125px;
+        top: 30px;
+    }
+
+    #weathericon {
+        width: 100%;
+    }
+
+    #weatherpic figure {
+        margin: 0px 25px;
     }
 
     #news {
