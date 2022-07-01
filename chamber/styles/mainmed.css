@@ -80,5 +80,7 @@
     /* ------ Directory Page ------ */
 
 
-    
+    #directory_table td, #directory_table tr {
+        display: revert;
+    }
 }

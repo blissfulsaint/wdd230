@@ -481,11 +481,12 @@ margin: 20px;
 
 #directory_table {
     border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #directory_table td {
     padding: 20px;
-    width: 200px;
 }
 
 #directory_table tr:nth-child(even) {
@@ -507,8 +508,8 @@ margin: 20px;
 }
 
 #directoryContent img {
-max-width: 90%;
-max-height: 100px;
+    max-width: 90%;
+    max-height: 100px;
 }
 
 #directoryContent a {
@@ -517,6 +518,10 @@ max-height: 100px;
 
 #directoryContent .hide {
     display: none;
+}
+
+#directory_table td, #directory_table tr {
+    display: block;
 }
 
 
