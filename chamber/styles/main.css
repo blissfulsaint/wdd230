@@ -64,11 +64,16 @@ nav li {
     display: block;
 }
 
-nav li a {
+nav a {
     color: white;
     text-decoration: none;
     font-size: 1.5em;
     text-align: center;
+}
+
+#active {
+    color: black;
+    background-color: #ced9ff;
 }
 
 .navigation a:hover {
