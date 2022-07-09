@@ -34,6 +34,29 @@
             <aside id="date"></aside>
         </header>
         <main id="contactContent">
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label class="top">First Name* <input type="text" name="fname" required></label>
+                    <label class="top">Last Name* <input type="text" name="lname" required></label>
+                    <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                    <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="top">Business Name* <input type="text" name="title" minlength="7" pattern="[- A-Za-z0-9]+" required></label>
+                    <label class="top">Business Position <input type="text" name="title"></label>
+                    <label class="top">Business Description <input type="text" name="description"></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Membership Level</legend>
+                    <label class="sbs"><input type="radio" name="membership" value="np" required> NP</label>
+                    <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze</label>
+                    <label class="sbs"><input type="radio" name="membership" value="silver"> Silver</label>
+                    <label class="sbs"><input type="radio" name="membership" value="gold"> Gold</label>
+                </fieldset>
+
+                <input id="submitDate" type="hidden" name="email_sent_date">
+                <input type="submit" value="Join the Chamber" class="submitBtn">
+            </form>
         </main>
         <footer>
             <img id="footlogo" src="images/mcoc.png" alt="chamber of commerce logo">
