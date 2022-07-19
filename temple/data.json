@@ -1,0 +1,48 @@
+{
+
+    "data": [ 
+    {
+        "temple" : "Tokyo Japan Temple",
+        "address" : "5-8-10 Minami Azabu, Minato-ku, Tokyo 106-0047, Japan",
+        "addresslink" : "https://goo.gl/maps/DTwi8k3pwMEJszCd8",
+        "phone" : "(81) 3-4545-3000",
+        "services" : "Clothing rental, patron housing, distribution center nearby",
+        "history" : "9 August 1975 - Announced; 10 April 1978 - Groundbreaking; 27 October 1980 - Dedicated; 3 July 2022 - Rededicated",
+        "temple_closure" : "Saturday, 8 October 2022; Saturday, 8 April 2023",
+        "imagepath" : "tokyotemplesunsetcard.jpg"
+    },
+
+    {
+        "temple" : "Fukuoka Japan Temple",
+        "address" : "9-15 Hiraojosuimachi, Chuo Ward, Fukuoka, 810-0029, Japan",
+        "addresslink" : "https://goo.gl/maps/QKYNaRHVNQpmHwat9",
+        "phone" : "(81) 92-525-8255",
+        "services" : "Patron housing available",
+        "history" : "7 May 1998 - Announced; 20 March 1999 - Groundbreaking; 11 June 2000 - Dedicated",
+        "temple_closure" : "Monday, 1 August 2022 - Wednesday, 30 November 2022; Saturday, 24 December 2022; Friday, 30 December 2022 (Limited Operations); Saturday, 31 December 2022",
+        "imagepath" : "fukuokatemplecard.jpg"
+    },
+
+    {
+        "temple" : "Sapporo Japan Temple",
+        "address" : "Japan, 〒004-0042 Hokkaido, Sapporo, Atsubetsu Ward, Oyachinishi, 1 Chome-6-1",
+        "addresslink" : "https://goo.gl/maps/1u3D2NHwiTWVtX8W6",
+        "phone" : "(81) 11-890-8120",
+        "services" : "Patron housing, distribution center nearby",
+        "history" : "3 October 2009 - Announced; 22 October 2011 - Groundbreaking; 21 August 2016 - Dedicated",
+        "temple_closure" : "Monday, 5 September 2022 - Monday, 19 September 2022; Friday, 23 September 2022 (Limited Operations); Saturday, 8 October 2022; Saturday, 24 December 2022; Saturday, 31 December 2022",
+        "imagepath" : "sapporotemplecard.jpg"
+    },
+    
+    {
+        "temple" : "Okinawa Japan Temple",
+        "address" : "7 Chome-11-1 Matsumoto, Okinawa, 904-2151, Japan",
+        "addresslink" : "https://goo.gl/maps/jGBP5pViNHrSg2286",
+        "phone" : "pending",
+        "services" : "pending",
+        "history" : "7 April 2019 - Announced; 5 December 2020 - Groundbreaking",
+        "temple_closure" : "",
+        "imagepath" : "okinawatemplemodelcard.jpg"
+    }]
+    
+    }
