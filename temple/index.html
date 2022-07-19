@@ -5,16 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <meta name="description" content="Home page for the Temple Inn & Suites website. For any needs relating to visiting faraway temples in Japan, Temple Inn & Suites is your web destination!">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main_small.css">
+    <link rel="stylesheet" href="styles/main_medium.css">
+    <link rel="stylesheet" href="styles/main_large.css">
+    <script defer src="scripts/main.js"></script>
+    <script src="https://kit.fontawesome.com/4f5cf72ecf.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
+    <div class="content">
+        <header>
+            <div id="logo">
+                <a href="index.html"><img id="navlogo" src="images/templelogonowordsv2.png" alt="temple inn and suites logo"></a>
+                <h1>Temple Inn & Suites</h1>
+            </div>
+            <section id="sociallinks">
+                <a href="https://www.facebook.com/" target="_blank"><img class="social" src="images/facebook-icon.png" alt="facebook logo"></a>
+                <a href="https://www.instagram.com" target="_blank"><img class="social" src="images/instagram-icon.png" alt="instagram logo"></a>
+                <a href="https://www.linkedin.com" target="_blank"><img class="social" src="images/linkedin-icon.png" alt="linkedin logo"></a>
+            </section>
+            <a class="ham" href="#">&#9776;</a>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="index.html" id="active">Home</a></li>
+                    <li><a href="temples.html">Temples</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Welcome!</h1>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="images/tokyotemplesunsetv2.jpg" alt="tokyo temple">
+                    <p class="text">Tokyo Temple</p>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="images/sapporotemplev2.jpg" alt="sapporo temple">
+                    <p class="text">Sapporo Temple</p>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="images/fukuokatemplev2.jpg" alt="fukuoka temple">
+                    <p class="text">Fukuoka Temple</p>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="images/okinawatemplemodelv2.jpg" alt="okinawa temple">
+                    <p class="text">Okinawa Temple</p>
+                </div>
 
-    </header>
-    <main>
+                <a href="reservations.html" id="cta">Make a Reservation</a>
 
-    </main>
-    <footer>
-        
-    </footer>
+                <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+            </div>
+
+            <!-- The dots/circles -->
+            <!-- <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div> -->
+
+            <section id="summary">
+                
+            </section>
+        </main>
+        <footer>
+            <hr>
+            <a href="index.html"><img id="footlogo" src="images/templelogov2.png" alt="temple inn and suites logo"></a>
+            <section id="foottext">
+                <a href="https://goo.gl/maps/a1ncjRu1u5TM9wrN8" target="_blank"><i class='fas fa-map-marker-alt'></i> 5 Chome-8-8 Minamiazabu, Minato City, Tokyo 106-0047, Japan</a>
+                <p>Temple Inn & Suites &copy; <span id="currentyear"></span></p>
+                <p>Weather Info provided by OpenWeatherMap</p>
+                <p id="datemod">Last Date Modified: <span id="lastdate"></span></p>
+            </section>
+        </footer>
+    </div>
 </body>
 </html>
