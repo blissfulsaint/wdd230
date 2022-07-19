@@ -475,7 +475,7 @@ form label.top input:required:valid {
 display: flex;
 flex-wrap: wrap;
 text-align: center;
-justify-content: center;;
+justify-content: center;
 }
 
 #directory_cards section {

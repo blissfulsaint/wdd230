@@ -38,7 +38,40 @@
                 </ul>
             </nav>
         </header>
-        <main>
+        <main id="reservation_content">
+            <h1>Make a Reservation!</h1>
+            <div id="formContent">
+                <form method="get" action="thankyou.html">
+    
+                    <fieldset id="location">
+                        <legend>Location</legend>
+                        <label class="sbs"><input type="radio" name="location" value="tokyo" required> Tokyo</label>
+                        <label class="sbs"><input type="radio" name="location" value="fukuoka"> Fukuoka</label>
+                        <label class="sbs"><input type="radio" name="location" value="sapporo"> Sapporo</label>
+                        <label class="sbs"><input type="radio" name="location" value="okinawa"> Okinawa</label>
+                    </fieldset>
+
+                    <fieldset>
+
+                        <legend>Reservation Details</legend>
+                        <label class="top">First Name* <input type="text" name="fname" placeholder="John" required></label>
+                        <label class="top">Last Name* <input type="text" name="lname" placeholder="Smith" required></label>
+                        <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                        <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                        <label class="top">Date: <input type="date" id="date" name="reservation_date" required></label>
+                        <label class="top" for="rooms">Number of rooms: <select name="rooms" id="rooms">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select></label>
+                        <label class="top">Home State/Country <input type="text" name="home"></label>
+                        <label class="top">Any Special Accommodations/Comments? <input type="text" name="description"></label>
+                    </fieldset>
+
+                    <input id="submitDate" type="hidden" name="email_sent_date">
+                    <input type="submit" value="Confirm Reservation" class="submitBtn">
+                </form>
         </main>
         <footer>
             <hr>

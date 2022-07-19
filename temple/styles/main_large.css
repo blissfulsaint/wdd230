@@ -73,6 +73,10 @@
         margin-right: 10px;
     }
 
+    #weather h4 {
+        padding-top: 0;
+    }
+
     #summary {
         margin: 15px 10px;
     }
