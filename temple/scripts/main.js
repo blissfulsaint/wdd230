@@ -1,13 +1,3 @@
-// Hamburger menu scripts
-
-let hambutton = document.querySelector('.ham');
-
-let mainnav = document.querySelector('nav');
-
-hambutton.addEventListener('click', ()=>{mainnav.classList.toggle('responsive')});
-
-
-
 // date stuff
 
 let date = new Date();
@@ -16,6 +6,10 @@ let currentyear = date.getFullYear();
 document.querySelector('#currentyear').textContent = currentyear;
 
 const fulldateUK = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(date);
+
+let currentdate = document.lastModified;
+
+document.querySelector('#lastdate').textContent = currentdate;
 
 
 

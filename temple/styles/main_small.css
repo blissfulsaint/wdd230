@@ -328,3 +328,7 @@ footer a:hover {
 footer a, p, span {
     font-size: 1.2em;
 }
+
+#currentyear, #lastdate {
+    font-size: 1em;
+}
