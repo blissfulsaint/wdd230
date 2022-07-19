@@ -13,6 +13,14 @@ document.querySelector('#lastdate').textContent = currentdate;
 
 
 
+let hambutton = document.querySelector('.ham');
+
+let mainnav = document.querySelector('nav');
+
+hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')})
+
+
+
 // days since last visit
 
 let visit_heading = document.querySelector('.visited');

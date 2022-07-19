@@ -396,7 +396,6 @@ form label.top input, form label.top select {
     padding: .75rem;
     color: #555;
     width: 100%;
-    /* max-width: 20rem; */
     background-color: rgba(0,0,0,0.1);
 }
 
@@ -428,19 +427,19 @@ form label.top input:required:valid {
 
 /* ----------- Thank You ----------- */
 
-#thank_content {
+#thank_content, #thankyouc_content {
     display: block;
 }
 
-#thank_content h1 {
+#thank_content h1, #thankyouc_content h1 {
     margin-top: 50px;
 }
 
-#thank_content p {
+#thank_content p, #thankyouc_content p {
     margin-bottom: 50px;
 }
 
-#thank_content a {
+#thank_content a, #thankyouc_content a {
     text-decoration: none;
     background-color: #CC9399;
     color: #fff;
@@ -448,13 +447,74 @@ form label.top input:required:valid {
     border-radius: 10px;
 }
 
-#thank_content a:hover {
+#thank_content a:hover, #thankyouc_content a:hover {
     text-decoration: none;
     background-color: #fff;
     color: #6E494B;
     padding: 6px;
     border-radius: 10px;
     border: 4px solid #6E494B;
+}
+
+
+/* ----------- Services ----------- */
+
+#services_content img {
+    width: 100%;
+}
+
+#services_content ul {
+    margin: 20px;
+}
+
+#services_content li {
+    text-align: left;
+}
+
+#wedding, #missionaries {
+    height: 250px;
+    position: relative;
+}
+
+#wedding img, #missionaries img {
+    height: 100%;
+    width: auto;
+}
+
+#missionaries {
+    margin-top: 20px;
+}
+
+#subpages a {
+    position: absolute;
+    bottom: 10px;
+    right: 90px;
+    background-color: #CC9399;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+#subpages a:hover {
+    background-color: #fff;
+    padding: 6px;
+    border: 4px solid #6E494B;
+    color: #6E494B;
+}
+
+
+/* ----------- Reception ----------- */
+
+#reception_content img {
+    width: 100%;
+}
+
+
+/* ----------- Missionary ----------- */
+
+#missionary_content img {
+    width: 100%;
 }
 
 
