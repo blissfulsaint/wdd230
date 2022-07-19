@@ -12,19 +12,23 @@
     <link rel="stylesheet" href="styles/main_large.css">
     <script defer src="scripts/main.js"></script>
     <script src="https://kit.fontawesome.com/4f5cf72ecf.js" crossorigin="anonymous"></script>
+    <script defer src="scripts/weatherapi.js"></script>
 </head>
 <body>
     <div class="content">
         <header>
-            <div id="logo">
-                <a href="index.html"><img id="navlogo" src="images/templelogonowordsv2.png" alt="temple inn and suites logo"></a>
-                <h1>Temple Inn & Suites</h1>
-            </div>
-            <section id="sociallinks">
-                <a href="https://www.facebook.com/" target="_blank"><img class="social" src="images/facebook-icon.png" alt="facebook logo"></a>
-                <a href="https://www.instagram.com" target="_blank"><img class="social" src="images/instagram-icon.png" alt="instagram logo"></a>
-                <a href="https://www.linkedin.com" target="_blank"><img class="social" src="images/linkedin-icon.png" alt="linkedin logo"></a>
+            <section id="logos">
+                <div id="logo">
+                    <a href="index.html"><img id="navlogo" src="images/templelogonowordsv2.png" alt="temple inn and suites logo"></a>
+                    <h1>Temple Inn & Suites</h1>
+                </div>
+                <section id="sociallinks">
+                    <a href="https://www.facebook.com/" target="_blank"><img class="social" src="images/facebook-icon.png" alt="facebook logo"></a>
+                    <a href="https://www.instagram.com" target="_blank"><img class="social" src="images/instagram-icon.png" alt="instagram logo"></a>
+                    <a href="https://www.linkedin.com" target="_blank"><img class="social" src="images/linkedin-icon.png" alt="linkedin logo"></a>
+                </section>
             </section>
+            
             <a class="ham" href="#">&#9776;</a>
             <nav>
                 <ul class="navigation">
@@ -34,9 +38,9 @@
                     <li><a href="services.html">Services</a></li>
                 </ul>
             </nav>
+            <h1>Welcome!</h1>
         </header>
         <main>
-            <h1>Welcome!</h1>
             <div class="slideshow-container">
                 <div class="mySlides fade">
                     <div class="numbertext">1 / 4</div>
@@ -74,14 +78,37 @@
             </div> -->
 
             <section id="summary">
-                
+                <img src="images/tokyotemplenews.jpg" alt="news report of Tokyo Temple">
+                <p>After a multi-year remodelling project, the Tokyo Temple has finally been rededicated!</p>
+                <a href="temples.html">Learn More</a> 
+            </section>
+            
+            <section id="weather">
+                <h4>Current Weather in Bethesda</h4>
+                <section id="weathergrid">
+                    <div id="weatherpic">
+                        <figure><img src="images/weather.png" alt="" id="weathericon" />  <figcaption></figcaption></figure>
+                        <p id="temp"><span id="current-temp"></span> &deg;F</p>
+                    </div>
+                    <div id="wind">
+                        <p>Wind Speed:</p>
+                        <p><span id="speed"></span> mph</p>
+                        <p>Humidity:</p>
+                        <p><span id="humid"></span>%</p>
+                    </div>
+                </section>
+            </section>
+
+            <section id="services-cta">
+                <img src="images/missionaries.jpg" alt="missionaries teaching in Japan">
+                <a href="services.html">Learn More about our Services</a>
             </section>
         </main>
         <footer>
             <hr>
             <a href="index.html"><img id="footlogo" src="images/templelogov2.png" alt="temple inn and suites logo"></a>
             <section id="foottext">
-                <a href="https://goo.gl/maps/a1ncjRu1u5TM9wrN8" target="_blank"><i class='fas fa-map-marker-alt'></i> 5 Chome-8-8 Minamiazabu, Minato City, Tokyo 106-0047, Japan</a>
+                <a href="https://goo.gl/maps/2fDmjHfrs8mcWdtC6" target="_blank"><i class='fas fa-map-marker-alt'></i> 4800 Montgomery Ln, Bethesda, MD 20814</a>
                 <p>Temple Inn & Suites &copy; <span id="currentyear"></span></p>
                 <p>Weather Info provided by OpenWeatherMap</p>
                 <p id="datemod">Last Date Modified: <span id="lastdate"></span></p>

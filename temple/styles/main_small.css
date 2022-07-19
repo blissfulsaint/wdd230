@@ -4,12 +4,12 @@ div {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Playfair Display', serif;
     color: #6E494B;
 }
 
-p, li, a {
+p, li, a, figcaption, span {
     font-family: 'Roboto', sans-serif;
     color: #6E494B;
     font-size: 1.5rem;
@@ -92,6 +92,10 @@ nav li {
 
 .responsive li {
     display: block;
+}
+
+header {
+    text-align: center;
 }
 
 
@@ -213,6 +217,88 @@ main {
     padding: 2px;
 }
 
+#summary {
+    margin-top: 20px;
+}
+
+#summary img {
+    width: 100%;
+}
+
+#summary p {
+    margin-top: 0px;
+}
+
+#summary a {
+    text-decoration: none;
+    background-color: #CC9399;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#summary a:hover {
+    background-color: #fff;
+    color: #6E494B;
+    border: 3px solid #6E494B;
+    padding: 2px;
+}
+
+#weather {
+    background-color: #CC9399;
+    margin-top: 40px;
+}
+
+#weather p, #weather span, #weather h4, #weather figcaption {
+    color: #fff;
+    font-size: 1em;
+}
+
+#weather h4 {
+    padding-top: 20px;
+}
+
+#weatherpic figure {
+    margin-top: 0px;
+}
+
+#weathergrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#wind {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#services-cta {
+    margin-top: 30px;
+    position: relative;
+}
+
+#services-cta img {
+    width: 100%;
+}
+
+#services-cta a {
+    text-decoration: none;
+    background-color: #CC9399;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#services-cta a:hover {
+    background-color: #fff;
+    color: #6E494B;
+    border: 3px solid #6E494B;
+    padding: 2px;
+}
+
 
 /* ----------- Footer ----------- */
 
@@ -239,6 +325,6 @@ footer a:hover {
     font-weight: bolder;
 }
 
-footer a, p {
+footer a, p, span {
     font-size: 1.2em;
 }
